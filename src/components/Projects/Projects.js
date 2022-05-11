@@ -4,6 +4,7 @@ import { ProjectsContainer, StyledProjects } from "../styles/Projects.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { projectData } from "./projectsData";
 import ProjectCardComponent from "./ProjectCard";
+import Cards from "../Cards/Cards";
 
 const Projects = () => {
   return (
@@ -22,9 +23,7 @@ const Projects = () => {
         </StyledLink>
       </StyledParagraph>
       <ProjectsContainer>
-        {projectData.map((project) => {
-          return <ProjectCardComponent key={project.id} {...project} />;
-        })}
+        <Cards/>
       </ProjectsContainer>
     </StyledProjects>
   );

@@ -61,7 +61,7 @@ export const ProjectDetails = styled.div`
     rgba(13, 14, 14, 0.97),
     rgba(0, 0, 0, 0.9)
   );
-  transform: translateY(100%);
+  /* transform: translateY(0); */
   opacity: 0;
   pointer-events: none;
   transition: 0.6s ease;
@@ -132,7 +132,7 @@ export const ProjectCard = styled.article`
   }
 
   &:hover ${ProjectDetails} {
-    transform: translateY(0);
+    transform: translateY(100);
     opacity: 1;
     pointer-events: all;
   }

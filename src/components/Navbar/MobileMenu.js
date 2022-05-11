@@ -23,15 +23,21 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="home" onClick={toggle}>
           Home
         </MobileMenuLink>
-        <MobileMenuLink to="projects" onClick={toggle}>
-          Projects
-        </MobileMenuLink>
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
-          Playground
+        <MobileMenuLink to="techno" onClick={toggle}>
+          Skills
         </MobileMenuLink>
+        <MobileMenuLink to="projects" onClick={toggle}>
+          Projects
+        </MobileMenuLink>
+        <MobileMenuLink to="contact" onClick={toggle}>
+          Contact
+        </MobileMenuLink>
+        {/* <MobileMenuLink to="playground" onClick={toggle}>
+          Playground
+        </MobileMenuLink> */}
         <MobileButton
           href="mailto:jerichobantiquete@gmail.com "
           target="_blank"

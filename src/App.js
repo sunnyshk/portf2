@@ -24,13 +24,18 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <>
+        <Navbar />
+        <Home />
+        <About />
+        <Technologies />
+        <Projects />
           <GlobalStyles />
-          <Navbar />
-          <Home />
-          <Projects />
-          <About />
+         
+          
+          
+          
           <ParallaxComponent />
-          <Technologies />
+          
           {/* <Playground /> */}
           <Footer />
         </>

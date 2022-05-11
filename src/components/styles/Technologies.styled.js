@@ -20,7 +20,7 @@ export const TechnologiesIcons = styled.div`
 `;
 
 export const TechnologyIcon = styled.img`
-  height: 32px;
+  height: 152px;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     height: 24px;
