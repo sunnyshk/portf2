@@ -22,7 +22,7 @@ export const projectData = [
     transitionImage: tani,
     title: "Tanishq Website Clone",
     codeLink: "https://github.com/Luke0912/Tanishq",
-    liveLink: "https://heuristic-minsky-e408f0.netlify.app/",
+    liveLink: "https://tanishq-clone.netlify.app/",
   },
   {
     id: 2,
