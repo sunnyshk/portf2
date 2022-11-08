@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import ParallaxComponent from "./components/Parallax/Parallax";
 import Technologies from "./components/Technologies/Technologies";
 import Playground from "./components/Playground/Playground";
+// import Feedback from "./components/Feedback/Feedback";
 
 function App() {
   console.log(
@@ -40,6 +41,7 @@ function App() {
           <Footer />
         </>
       </ThemeProvider>
+          {/* <Feedback/> */}
     </Router>
   );
 }

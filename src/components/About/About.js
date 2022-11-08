@@ -24,7 +24,7 @@ const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutImageContainer>
-          <AboutImage src={myImage} />
+          <AboutImage src={"http://sdfsystems.com/things-to-discuss-with-your-web-developer-before-you-start/#"} />
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
